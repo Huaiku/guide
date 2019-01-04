@@ -1,0 +1,16 @@
+# environments
+spring:
+  output:
+    ansi:
+      enabled: always
+  profiles:
+    active: dev
+## Apache Kafka
+  kafka:
+    bootstrap-servers: 127.0.0.7:9092
+    consumer:
+      group-id: huaiku
+## Log
+logging:
+  level:
+    root: info
